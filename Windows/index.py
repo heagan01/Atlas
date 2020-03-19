@@ -277,37 +277,37 @@ def playerMovement():
 
     if asdf == '1':
         x -= 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == '2':
         y -= 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == '3':
         x += 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == '4':
         y += 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == '5':
         action()
-        os.system('clear')
+        os.system('cls')
     elif asdf == '6':
         exit()
-        os.system('clear')
+        os.system('cls')
     elif asdf == 'w':
         x -= 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == 'a':
         y -= 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == 's':
         x += 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == 'd':
         y += 1
-        os.system('clear')
+        os.system('cls')
     elif asdf == 'q':
         action()
-        os.system('clear')
+        os.system('cls')
     elif asdf == 'x':
         exit()
 
